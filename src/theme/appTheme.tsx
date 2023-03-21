@@ -8,4 +8,7 @@ export const themeStyles = StyleSheet.create({
   globalMargin: {
     marginHorizontal: 20,
   },
+  primary: {
+    color: '#5856D6',
+  },
 });
