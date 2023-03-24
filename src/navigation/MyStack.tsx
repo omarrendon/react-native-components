@@ -7,6 +7,7 @@ import {
   AlertScreen,
   TextInputScreen,
   PullToRefreshScreen,
+  SectionListScreen,
 } from '../screens/index';
 
 const Stack = createStackNavigator();
@@ -27,6 +28,7 @@ export const MyStack = () => {
         name="PullToRefreshScreen"
         component={PullToRefreshScreen}
       />
+      <Stack.Screen name="SectionListScreen" component={SectionListScreen} />
     </Stack.Navigator>
   );
 };
