@@ -6,6 +6,7 @@ import {
   SwichScreen,
   AlertScreen,
   TextInputScreen,
+  PullToRefreshScreen,
 } from '../screens/index';
 
 const Stack = createStackNavigator();
@@ -22,6 +23,10 @@ export const MyStack = () => {
       <Stack.Screen name="SwitchScreen" component={SwichScreen} />
       <Stack.Screen name="AlertScreen" component={AlertScreen} />
       <Stack.Screen name="TextInputScreen" component={TextInputScreen} />
+      <Stack.Screen
+        name="PullToRefreshScreen"
+        component={PullToRefreshScreen}
+      />
     </Stack.Navigator>
   );
 };
