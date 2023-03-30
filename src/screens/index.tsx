@@ -6,3 +6,4 @@ export {AlertScreen} from './AlertScreen';
 export {TextInputScreen} from './TextInputScreen';
 export {PullToRefreshScreen} from './PullToRefreshScreen';
 export {SectionListScreen} from './SectionListScreen';
+export {ModalScreen} from './ModalScreen';
