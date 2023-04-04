@@ -10,6 +10,7 @@ import {
   SectionListScreen,
   ModalScreen,
   InfiniteScrollScreen,
+  SlidesScreen,
 } from '../screens/index';
 
 const Stack = createStackNavigator();
@@ -36,6 +37,7 @@ export const MyStack = () => {
         name="InfiniteScrollScreen"
         component={InfiniteScrollScreen}
       />
+      <Stack.Screen name="SlidesScreen" component={SlidesScreen} />
     </Stack.Navigator>
   );
 };
